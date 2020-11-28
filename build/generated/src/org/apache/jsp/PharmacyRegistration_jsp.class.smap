@@ -1,0 +1,20 @@
+SMAP
+PharmacyRegistration_jsp.java
+JSP
+*S JSP
+*F
++ 0 PharmacyRegistration.jsp
+PharmacyRegistration.jsp
++ 1 header2.jsp
+header2.jsp
++ 2 link3.html
+link3.html
+*L
+5,14:50
+1#1,4:64
+5:68,3
+6,12:71
+1#2,64:83
+17#1,6:146
+18#0,36:151
+*E

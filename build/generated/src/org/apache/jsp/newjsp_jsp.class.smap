@@ -1,0 +1,25 @@
+SMAP
+newjsp_jsp.java
+JSP
+*S JSP
+*F
++ 0 newjsp.jsp
+newjsp.jsp
++ 1 header1.jsp
+header1.jsp
++ 2 link1.html
+link1.html
+*L
+1,23:54
+23,4:77
+1#1,4:81
+5:85,3
+6,12:88
+1#2,91:100
+17#1,6:190
+26#0,26:195
+51,3:221
+54,6:224,3
+60,11:242
+70,2:253
+*E

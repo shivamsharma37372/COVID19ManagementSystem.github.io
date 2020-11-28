@@ -1,0 +1,24 @@
+SMAP
+wardAvail_jsp.java
+JSP
+*S JSP
+*F
++ 0 wardAvail.jsp
+wardAvail.jsp
++ 1 header1.jsp
+header1.jsp
++ 2 link1.html
+link1.html
+*L
+1,12:50
+13:62,3
+14,4:65
+1#1,4:69
+5:73,3
+6,12:76
+1#2,91:88
+17#1,6:178
+17#0,19:183
+36,5:203
+40,9:208
+*E

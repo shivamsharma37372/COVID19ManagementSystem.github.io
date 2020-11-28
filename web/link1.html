@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 210px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">  
+  <button class="dropbtn">HOME</button>
+  <div class="dropdown-content">
+    <a href="index.jsp">HOME PAGE</a>    
+  </div>  
+</div>
+<div class="dropdown">
+  <button class="dropbtn">REGISTRATION</button>
+  <div class="dropdown-content">
+    <a href="hospReg.jsp">HOSPITAL REGISTRATION</a>
+    <a href="patientReg.jsp">PATIENT REGISTRATION</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">HOSPITAL</button>
+  <div class="dropdown-content">
+    
+    <a href="hospRecord.jsp">HOSPITAL LIST</a>    
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">REPORT</button>
+  <div class="dropdown-content">
+    <a href="patientRecord.jsp">PATIENT REPORT </a>
+    
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">STATUS</button>
+  <div class="dropdown-content">
+    <a href="patientStatusR.jsp">PATIENT STATUS </a>
+    <a href="wardStatus.jsp">WARD STATUS </a>
+
+  </div>
+</div>
+
+<div class="dropdown">  
+  <button class="dropbtn">LOGOUT</button>
+  <div class="dropdown-content">
+    <a href="logout.jsp">LOGOUT</a>    
+  </div>  
+</div>
+</body>
+</html>

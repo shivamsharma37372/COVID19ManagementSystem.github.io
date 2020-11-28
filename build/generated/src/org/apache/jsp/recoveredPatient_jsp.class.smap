@@ -1,0 +1,21 @@
+SMAP
+recoveredPatient_jsp.java
+JSP
+*S JSP
+*F
++ 0 recoveredPatient.jsp
+recoveredPatient.jsp
++ 1 header6.jsp
+header6.jsp
++ 2 link7.html
+link7.html
+*L
+2,12:51
+1#1,4:63
+5:67,3
+6,12:70
+1#2,62:82
+17#1,6:143
+13#0,22:148
+34,9:170
+*E
